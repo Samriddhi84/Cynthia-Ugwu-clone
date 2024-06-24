@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: black;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+#navbar {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#heading {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 90px;
+}
+
+#heading h1 {
+    font-size: 10vw;
+    font-weight: 500;
+    opacity: 0.7;
+    line-height: 0.9;
+    margin-left: 30px;
+}
+
+#heading .Designer {
+    margin-left: 180px;
+}
+
+.same {
+    /* background-color: red; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.same h5 {
+    text-align: right;
+    font-size: 15px;
+    /* background-color: yellow; */
+    text-align: right !important;
+}
+
+#small {
+    color: white;
+    margin-top: 9vw;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 1vw;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#small p {
+    text-align: right;
+    margin-right: 40px;
+}
+
+#last {
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#last a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#last {
+    padding: 0vw 3vw;
+    margin-top: 1vw;
+    font-size: 16px;
+}
+
+#last .circle {
+    background-color: #888;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+#second {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+    padding-top: 200px;
+}
+
+.parts {
+    border-top: 1px solid white;
+    color: white;
+    width: 86%;
+    padding: 4vw 3vw;
+    margin-left: 2vw;
+    padding-left: 0;
+}
+
+.parts h1 {
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+    position: relative;
+}
+
+.partslast {
+    border-bottom: 2px solid white;
+}
+
+.parts img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#about {
+    padding: 10vw 3vw;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10vw 10vw;
+    padding-left: 20vw;
+}
+
+#about img {
+    width: 250px;
+}
+
+#textabout {
+    width: 30rem;
+}
+
+#textabout p {
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#textabout h5 {
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+#textabout a {
+    padding: 8px 25px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#sub {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+#sub h5 {
+    opacity: 0.7;
+}
+
+#sub h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer #time {
+    font-size: 18px;
+    padding: 15px 30px;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+/* cursor */
+#circle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+    z-index: 999;
+}
+
+.bound {
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: rebeccapurple; */
+}
+
+.bound .boundingelem {
+    transform: translateY(100%);
+}

@@ -8,3 +8,9 @@ The following languages and frameworks were used to recreate this website:
 - JavaScript
 - GSAP Framework (for animations)
 - Locomotive Scroll Framework (for smooth scrolling)
+
+## Features
+- Responsive Design: Tailored for multiple screen sizes.
+- Smooth Animations: Created with GSAP to add a dynamic visual appeal.
+- Enhanced Scrolling: Using Locomotive Scroll for refined scrolling effects.
+- Contact Form: Allows users to reach out seamlessly.
